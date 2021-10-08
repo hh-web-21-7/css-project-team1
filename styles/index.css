@@ -1,4 +1,5 @@
 @import "base.css";
+@import "utilities.css";
 @import "components/hero-section.css";
 @import "components/navigation.css";
 @import "components/redirection.css";
