@@ -2,6 +2,10 @@
   margin: 0 auto;
 }
 
+.mx-0 {
+  margin: 0;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -12,4 +16,16 @@
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border-width: 0;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #f24b88 ;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 0.813rem;
+  font-weight: bold;
 }

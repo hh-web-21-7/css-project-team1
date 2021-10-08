@@ -1,0 +1,28 @@
+.hero__image {
+  border-radius: 20px;
+  display: block;
+  margin-bottom: 50px;
+}
+.hero {
+  margin-top: 76px;
+  text-align: center;
+}
+.hero__title {
+  display: block;
+  color: antiquewhite;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.625rem;
+  letter-spacing: 0.215em;
+}
+.hero__subtitle {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.21em;
+  margin-top: -10px;
+}
+.hero__text {
+  max-width: 336px;
+  height: 150px;
+}
