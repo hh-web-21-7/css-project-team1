@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #332f3c;
+  display: grid;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.75rem;
+  grid-template-rows: 67px auto 724px;
+}
+
+main {
+  display: grid;
+  max-width: 360px;
+}
