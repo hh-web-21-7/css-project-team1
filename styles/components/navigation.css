@@ -1,0 +1,14 @@
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 336px;
+  height: 55px;
+}
+
+.navigation__title {
+}
+
+.navigation__menu {
+  align-self: center;
+}

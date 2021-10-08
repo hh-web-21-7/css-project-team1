@@ -2,6 +2,10 @@
   margin: 0 auto;
 }
 
+.mx-0 {
+  margin: 0;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
