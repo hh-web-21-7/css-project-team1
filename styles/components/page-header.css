@@ -1,16 +1,6 @@
 .page-header {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 336px;
-  height: 55px;
-}
-
-.logo-container {
-  height: 55px;
-}
-
-.line-height {
-  height: 55px;
+  min-width: 336px;
 }
