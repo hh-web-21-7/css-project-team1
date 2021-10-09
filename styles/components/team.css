@@ -3,7 +3,6 @@
 }
 
 .team__heading {
-  display: contents;
   text-transform: uppercase;
   color: white;
   font-weight: 700;
@@ -11,10 +10,25 @@
   line-height: 39px;
   padding-bottom: 5px;
   border-bottom: 5px #59253e solid;
+  text-align: center;
 }
 
 .team__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style-type: none;
+}
+.team__picture {
+  border-radius: 20px;
 }
 
 .team__list-item {
+}
+
+@media screen and (min-width: 640px) {
+  .team__list {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .team__pictures {
+  }
 }
