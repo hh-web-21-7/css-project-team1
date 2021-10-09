@@ -30,10 +30,6 @@
 }
 
 @media screen and (min-width: 640px) {
-  .hero__image {
-    border-radius: 100px;
-  }
-
   .hero__title {
     font-size: 3rem;
   }
