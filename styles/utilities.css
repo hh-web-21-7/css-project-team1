@@ -2,8 +2,8 @@
   margin: 0 auto;
 }
 
-.mx-0 {
-  margin: 0;
+.h-55 {
+  height: 55px;
 }
 
 .sr-only {
@@ -20,7 +20,7 @@
 
 .button {
   color: #ffffff;
-  background-color: #f24b88 ;
+  background-color: #f24b88;
   text-align: center;
   border-radius: 10px;
   text-decoration: none;

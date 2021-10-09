@@ -1,11 +1,16 @@
-.navigation {
+.page-header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   width: 336px;
   height: 55px;
 }
 
-.navigation__menu {
-  align-self: center;
+.logo-container {
+  height: 55px;
+}
+
+.line-height {
+  height: 55px;
 }
