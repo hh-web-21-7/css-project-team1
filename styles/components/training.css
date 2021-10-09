@@ -1,0 +1,32 @@
+.training {
+  text-align: center;
+}
+
+.training__title {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  font-size: 1.625rem;
+  line-height: 39px;
+  padding-bottom: 5px;
+  border-bottom: 5px #59253e solid;
+}
+
+.training__teaser {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.training__image {
+  border-radius: 10px;
+}
+
+.training__image-title {
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
