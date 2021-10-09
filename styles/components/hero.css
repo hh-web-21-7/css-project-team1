@@ -1,12 +1,14 @@
+.hero {
+  margin-top: 76px;
+  text-align: center;
+}
+
 .hero__image {
   border-radius: 20px;
   display: block;
   margin-bottom: 50px;
 }
-.hero {
-  margin-top: 76px;
-  text-align: center;
-}
+
 .hero__title {
   display: block;
   color: antiquewhite;
@@ -24,5 +26,4 @@
 }
 .hero__text {
   max-width: 336px;
-  height: 150px;
 }

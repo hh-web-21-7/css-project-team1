@@ -17,13 +17,13 @@
   margin-bottom: 20px;
 }
 
-.training__images {
+.training__image {
   border-radius: 10px;
 }
 
 .training__image-title {
   position: absolute;
-  left: 5px;
+  left: 15px;
   bottom: 10px;
   text-transform: uppercase;
   color: white;
