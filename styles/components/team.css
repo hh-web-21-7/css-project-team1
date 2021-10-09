@@ -4,6 +4,13 @@
 
 .team__heading {
   display: contents;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  font-size: 1.625rem;
+  line-height: 39px;
+  padding-bottom: 5px;
+  border-bottom: 5px #59253e solid;
 }
 
 .team__list {
