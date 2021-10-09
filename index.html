@@ -29,11 +29,17 @@
     </header>
     <main>
       <section class="mx-auto hero">
-        <img
-          class="hero__image mx-auto"
-          src="images/hero-section-woman.png"
-          alt=""
-        />
+        <picture>
+          <source
+            srcset="images/hero-section-woman-large.png"
+            media="(min-width: 640px)"
+          />
+          <img
+            class="hero__image"
+            src="images/hero-section-woman-small.png"
+            alt=""
+          />
+        </picture>
         <h2 class="hero__title">
           4 week<span class="hero__subtitle">workout plan</span>
         </h2>
