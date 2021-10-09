@@ -1,0 +1,13 @@
+.team {
+  display: grid;
+}
+
+.team__heading {
+  display: contents;
+}
+
+.team__list {
+}
+
+.team__list-item {
+}
