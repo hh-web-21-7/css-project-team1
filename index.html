@@ -11,21 +11,29 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,700&display=swap"
       rel="stylesheet"
     />
+    <script src="scripts/navigation.js"></script>
     <title>Document</title>
   </head>
   <body>
     <header class="page-header h-55 mx-auto">
       <h1 class="h-55">
-        <img src="images/logo-small.png" alt="" />
+        <img src="images/logo-small.png" alt="" onclick="showMenu()" />
         <span class="sr-only">Work out - Believe in yourself</span>
       </h1>
       <nav class="navigation">
         <img
-          class="align-center hide-desktop"
+          class="navigation__icon align-center hide-desktop"
           src="images/menu-mobile.png"
           alt="Show menu"
+          onclick="showMenu()"
         />
-        <ul class="navigation__list" role="list">
+
+        <ul id="navigationList" class="navigation__list" role="list">
+          <span
+            class="navigation__list-mobile-close hide-desktop"
+            onclick="showMenu()"
+            >X</span
+          >
           <li><a class="navigation__item--active" href="#">Exercises</a></li>
           <li><a class="navigation__item" href="#">Community</a></li>
           <li><a class="navigation__item" href="#">Pricing</a></li>
