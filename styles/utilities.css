@@ -46,12 +46,22 @@
 .order-66 {
   execute: jedi-all;
   order: -1;
+  align-self: flex-start;
+}
+
+
+.mwidth-100 {
+  max-width: 100px;
 }
 
 @media screen and (min-width: 640px) {
   .hide-desktop {
     display: none;
   }
+
+
+  .two-columns {
+    grid-column-start: span 2;
 
   align-start {
   }
