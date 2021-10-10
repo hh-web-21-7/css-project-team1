@@ -1,0 +1,28 @@
+footer {
+  padding: 16px;
+}
+
+.redirect {
+  border-bottom: 1px solid #f2f2f2;
+  border-top: 1px solid #f2f2f2;
+}
+
+.redirect-sections {
+  list-style-type: none;
+  display: grid;
+  margin: 0;
+  padding: 0;
+}
+
+.legal {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  border-top: 10px;
+}
+
+@media screen and (min-width: 640px) {
+  .redirect-sections {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
