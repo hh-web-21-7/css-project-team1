@@ -1,5 +1,6 @@
 .mx-auto {
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .h-55 {
@@ -66,7 +67,7 @@
   
   .two-columns {
     grid-column-start: span 2;
-
+  }
 }
 
 @media screen and (max-width: 640px) {
