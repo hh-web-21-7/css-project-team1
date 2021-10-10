@@ -19,10 +19,18 @@ footer {
 }
 
 .legal {
-  display: grid;
+  display: flex;
   align-items: center;
-  justify-items: center;
+  flex-direction: column;
+  gap: 10px;
   border-top: 10px;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.legal__terms{
+  text-decoration: none;
+  color:#fff
 }
 
 @media screen and (min-width: 640px) {
