@@ -1,5 +1,6 @@
 .mx-auto {
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .h-55 {
@@ -52,7 +53,7 @@
   max-width: 100px;
 }
 
-.rm-list-style {
+.rm-list-style[role="list"] {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -65,6 +66,7 @@
 
   .two-columns {
     grid-column-start: span 2;
+  }
 }
 
 @media screen and (max-width: 640px) {
