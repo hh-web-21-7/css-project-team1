@@ -45,6 +45,12 @@
 .order-66 {
   execute: jedi-all;
   order: -1;
+  align-self: flex-start;
+}
+
+
+.mwidth-100 {
+  max-width: 100px;
 }
 
 .rm-list-style {
@@ -57,6 +63,10 @@
   .hide-desktop {
     display: none;
   }
+  
+  .two-columns {
+    grid-column-start: span 2;
+
 }
 
 @media screen and (max-width: 640px) {
