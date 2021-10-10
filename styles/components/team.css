@@ -29,6 +29,7 @@
   .team__list {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-  .team__pictures {
+  .team__picture {
+    border-radius: 0;
   }
 }
