@@ -32,18 +32,16 @@
 @media screen and (min-width: 640px) {
   .team__list {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 20px;
+    gap: 10px;
   }
-  
-.team__card-text{
-    display:flex;
+
+  .team__card-text {
+    display: flex;
     flex-direction: column;
     padding: 10px;
-
-}
+  }
   .team__list-item {
     background-color: #f2f2f2;
-
   }
 
   .team__list-item h3 {
@@ -51,7 +49,7 @@
     font-style: italic;
     font-weight: 700;
     text-align: left;
-    margin-bottom:0;
+    margin-bottom: 0;
   }
 
   .team__list-item span {
@@ -66,7 +64,7 @@
     font-weight: 400;
   }
 
-  .team__button{
+  .team__button {
     align-self: flex-end;
   }
 
