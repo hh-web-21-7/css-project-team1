@@ -34,10 +34,16 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
   }
+  
+.team__card-text{
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
 
+}
   .team__list-item {
     background-color: #f2f2f2;
-    padding-bottom: 20px;
+
   }
 
   .team__list-item h3 {
@@ -45,7 +51,7 @@
     font-style: italic;
     font-weight: 700;
     text-align: left;
-    padding-left: 10px;
+    margin-bottom:0;
   }
 
   .team__list-item span {
@@ -59,8 +65,13 @@
     color: #0d0d0d5c;
     font-weight: 400;
   }
+
+  .team__button{
+    align-self: flex-end;
+  }
+
   .team__picture {
     border-radius: 0;
-    padding: 0;
+    margin: 0;
   }
 }
