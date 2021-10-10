@@ -1,5 +1,6 @@
 footer {
   padding: 16px;
+  color: #fff;
 }
 
 .footer__redirect {
@@ -8,8 +9,13 @@ footer {
   padding: 32px 16px;
 }
 
+.footer_head{
+  display: contents;
+}
+
 .redirect__sections {
   display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
   align-items: center;
   justify-items: center;
 }
@@ -25,16 +31,63 @@ footer {
   gap: 10px;
   border-top: 10px;
   margin-top: 20px;
-  color: #fff;
 }
 
-.legal__terms{
+.legal__terms {
   text-decoration: none;
-  color:#fff
+  color: inherit;
+}
+
+.footer__navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer__navigation h3 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.footer__navigation a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.newsletter{
+  display: grid;
+  grid-template-rows: 30px 30px 30px;
+  gap: 10px;
+  justify-items: center;
+  align-items: center;
+}
+
+.newsletter__form{
+  display: contents;
+}
+.newsletter__input {
+  border-radius: 8px;
+  padding: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.newsletter__button {
+  border: 0;
+  display: block;
 }
 
 @media screen and (min-width: 640px) {
   .redirect__sections {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: left;
   }
+
+  .newsletter{
+    order: 2;
+  }
+  
 }

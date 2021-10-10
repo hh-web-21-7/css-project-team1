@@ -251,7 +251,7 @@
     <footer>
       <section class="footer__redirect">
         <ul class="redirect__sections rm-list-style" role="list">
-          <li>
+          <li class="footer__head">
             <img src="images/logo-small.png" alt="" />
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta
@@ -280,26 +280,31 @@
               </li>
             </ul>
           </li>
+          <li class="newsletter">
+            <h3 id="newsletter-heading">SUBSCRIBE TO OUR NEWSLETTER</h3>
+            <form class="newsletter__form" action="" aria-labelledby="newsletter-heading">
+              <label class="sr-only" for="email">E-Mail</label>
+              <input class="newsletter__input" name="email" id="email" type="email" placeholder="Type Your Email Here" required/>
+              <input class="button newsletter__button" type="submit" value="subscribe" />
+            </form>
+          </li>
+          
           <li>
+            <nav class="footer__navigation">
             <h3>INFO</h3>
             <a href="">About</a>
             <a href="">Careers</a>
             <a href="">Press</a>
             <a href="">Product updates</a>
+          </nav>
           </li>
           <li>
+            <nav class="footer__navigation">
             <h3>GET IN TOUCH</h3>
             <a href="">About us</a>
             <a href="">Support</a>
             <a href="">Contact us</a>
-          </li>
-          <li>
-            <h3 id="newsletter-heading">SUBSCRIBE TO OUR NEWSLETTER</h3>
-            <form action="" aria-labelledby="newsletter-heading">
-              <label for=""></label>
-              <input type="email" placeholder="Type Your Email Here" />
-              <input class="button" type="submit" value="subscribe" />
-            </form>
+          </nav>
           </li>
         </ul>
       </section>
