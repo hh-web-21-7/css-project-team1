@@ -1,0 +1,22 @@
+footer {
+  padding: 16px;
+  list-style-type: none;
+}
+
+.redirect {
+  border-bottom: 1px solid #f2f2f2;
+  border-top: 1px solid #f2f2f2;
+}
+
+.redirect-sections .legal {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  border-top: 10px;
+}
+
+.legal__copyright {
+}
+
+.legal__terms {
+}
