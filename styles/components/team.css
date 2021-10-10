@@ -1,0 +1,29 @@
+.team {
+  display: grid;
+}
+
+.team__heading {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  font-size: 1.625rem;
+  line-height: 39px;
+  padding-bottom: 5px;
+  border-bottom: 5px #59253e solid;
+  text-align: center;
+}
+
+.team__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style-type: none;
+}
+.team__picture {
+  border-radius: 20px;
+}
+
+@media screen and (min-width: 640px) {
+  .team__list {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
