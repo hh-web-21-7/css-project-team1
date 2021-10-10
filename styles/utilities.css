@@ -30,11 +30,24 @@
   font-weight: bold;
 }
 
+.button-black {
+  color: #ffffff;
+  background-color: #1f1c26;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 0.813rem;
+  font-weight: bold;
+}
+
 .order-66 {
   execute: jedi-all;
   order: -1;
   align-self: flex-start;
 }
+
 
 .mwidth-100 {
   max-width: 100px;
@@ -45,8 +58,11 @@
     display: none;
   }
 
+
   .two-columns {
     grid-column-start: span 2;
+
+  align-start {
   }
 }
 
