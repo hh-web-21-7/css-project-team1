@@ -66,7 +66,7 @@
     background-color: #f2f2f2;
   }
 
-  .team__list-item h3 {
+  .team__card-heading {
     color: #0d0d0d;
     font-style: italic;
     font-weight: 700;
@@ -74,14 +74,14 @@
     margin-bottom: 0;
   }
 
-  .team__list-item span {
+  .team__card-subheading {
     color: #332f3c;
     font-style: italic;
     font-weight: 700;
     text-align: left;
   }
 
-  .team__list-item p {
+  .team__card-description {
     color: #0d0d0d5c;
     font-weight: 400;
   }
