@@ -35,14 +35,14 @@
   order: -1;
 }
 
-
+.rm-list-style {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 @media screen and (min-width: 640px) {
 
 .hide-desktop {
   display: none;
-}
-
-align-start{}
-
 }
 
