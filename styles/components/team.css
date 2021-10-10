@@ -22,13 +22,8 @@
   border-radius: 20px;
 }
 
-.team__list-item {
-}
-
 @media screen and (min-width: 640px) {
   .team__list {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-  .team__pictures {
   }
 }
