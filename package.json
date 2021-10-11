@@ -21,6 +21,7 @@
   "homepage": "https://github.com/hh-web-21-7/css-project-team1#readme",
   "devDependencies": {
     "htmlhint": "^0.15.2",
+    "prettier": "2.4.1",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^22.0.0"
   }
