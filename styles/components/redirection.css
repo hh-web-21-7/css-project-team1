@@ -22,10 +22,10 @@
   margin: 0 0 64px;
 }
 
-.redirection__button--pink {
+.redirection__button--left {
   justify-self: right;
 }
 
-.redirection__button--black {
+.redirection__button--right {
   justify-self: left;
 }
