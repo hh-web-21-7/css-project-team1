@@ -5,7 +5,9 @@
   "description": "We've chosen \"https://www.figma.com/community/file/1025112897172222956\".",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "html:check": "npx htmlhint **/*.html",
+    "css:check": "npx stylelint **/*.css",
+    "test": "npm run html:check && npm run css:check"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,8 @@
   },
   "homepage": "https://github.com/hh-web-21-7/css-project-team1#readme",
   "devDependencies": {
-    "htmlhint": "^0.15.2"
+    "htmlhint": "^0.15.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0"
   }
 }

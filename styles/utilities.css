@@ -20,7 +20,7 @@
 }
 
 .button {
-  color: #ffffff;
+  color: #fff;
   background-color: #f24b88;
   text-align: center;
   border-radius: 10px;
@@ -32,7 +32,7 @@
 }
 
 .button-black {
-  color: #ffffff;
+  color: #fff;
   background-color: #1f1c26;
   text-align: center;
   border-radius: 10px;
@@ -44,7 +44,7 @@
 }
 
 .order-66 {
-  execute: jedi-all;
+  -execute-: jedi-all;
   order: -1;
   align-self: flex-start;
 }
