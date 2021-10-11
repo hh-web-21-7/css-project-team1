@@ -25,8 +25,9 @@
 .team__list {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  list-style-type: none;
+  list-style: none;
 }
+
 .team__picture {
   border-radius: 20px;
 }
@@ -43,7 +44,10 @@
   .team__list {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
+    list-style: none;
+    padding: 0;
   }
+
   .team__heading::after {
     background-color: #59253e;
     content: "";
@@ -57,7 +61,7 @@
     text-align: left;
   }
 
-  .team__card-text {
+  .team__card {
     display: flex;
     flex-direction: column;
     padding: 10px;
