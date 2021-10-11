@@ -49,12 +49,11 @@
   align-self: flex-start;
 }
 
-
-.mwidth-100 {
+.maxwidth-100 {
   max-width: 100px;
 }
 
-.rm-list-style[role=list] {
+.rm-list-style[role="list"] {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -64,8 +63,8 @@
   .hide-desktop {
     display: none;
   }
-  
-  .two-columns {
+
+  .two-columns-desktop {
     grid-column-start: span 2;
   }
 }
