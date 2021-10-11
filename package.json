@@ -1,0 +1,23 @@
+{
+  "private": "true",
+  "name": "css-project-team1",
+  "version": "1.0.0",
+  "description": "We've chosen \"https://www.figma.com/community/file/1025112897172222956\".",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hh-web-21-7/css-project-team1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hh-web-21-7/css-project-team1/issues"
+  },
+  "homepage": "https://github.com/hh-web-21-7/css-project-team1#readme",
+  "devDependencies": {
+    "htmlhint": "^0.15.2"
+  }
+}
