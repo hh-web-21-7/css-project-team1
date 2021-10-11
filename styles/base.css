@@ -8,7 +8,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 0.75rem;
   color: #332f3c;
-  grid-template-rows: auto auto auto;
+  grid-auto-rows: auto;
   margin: 12px 0 0 0;
 }
 
