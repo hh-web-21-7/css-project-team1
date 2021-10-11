@@ -7,9 +7,17 @@
   "scripts": {
     "html:check": "npx htmlhint **/*.html",
     "css:check": "npx stylelint **/*.css",
-    "prettier:check":"npx prettier --check .",
-    "test": "npm run html:check && npm run css:check && npm run prettier:check"
+    "prettier:check": "npx prettier --check .",
+    "test": "npm run html:check && npm run css:check && npm run prettier:check",
+    "prepare": "husky install"
   },
+
+  "lint-staged": {
+    "**/*.html": "npm run html:check",
+    "**/*.css": "npm run css:check",
+    "**/*": "npm run prettier:check"
+  },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hh-web-21-7/css-project-team1.git"
@@ -22,6 +30,8 @@
   "homepage": "https://github.com/hh-web-21-7/css-project-team1#readme",
   "devDependencies": {
     "htmlhint": "^0.15.2",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.2.3",
     "prettier": "2.4.1",
     "stylelint": "^13.13.1",
     "stylelint-config-prettier": "^8.0.2",
